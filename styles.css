@@ -1,0 +1,80 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #4a90e2;
+}
+
+.main-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Навигация */
+nav {
+    background-color: #4a90e2;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Секции */
+section {
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #4a90e2;
+    text-align: center;
+}
+
+section p {
+    font-size: 18px;
+    text-align: center;
+}
